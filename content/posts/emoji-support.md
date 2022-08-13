@@ -1,11 +1,12 @@
 ---
-author: "Hugo Authors"
-title: "Emoji Support"
-date: "2019-03-05"
-description: "Guide to emoji usage in Hugo"
-tags: ["emoji"]
+author: 'Hugo Authors'
+title: 'Emoji Support'
+date: '2019-03-05'
+description: 'Guide to emoji usage in Hugo'
+tags: ['emoji']
 ShowToc: false
 ShowBreadCrumbs: false
+math: true
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.
@@ -22,6 +23,18 @@ To enable emoji globally, set `enableEmoji` to `true` in your site's [configurat
 The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 ---
+
+{{ if or .Page.Params.math .Site.Params.math }}
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+{{ end }}
+
+$$
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$
 
 **N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
