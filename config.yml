@@ -3,6 +3,7 @@ title: PaperMod
 paginate: 5
 theme: hugo-PaperMod
 
+defaultContentLanguage: ja
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -17,8 +18,8 @@ minify:
   # minifyOutput: true
 
 languages:
-  en:
-    languageName: 'English'
+  ja:
+    languageName: 'Japanese'
     weight: 1
     taxonomies:
       category: categories
@@ -27,7 +28,7 @@ languages:
     menu:
       main:
         - name: Archive
-          url: archives
+          url: archives/
           weight: 5
         - name: Search
           url: search/
