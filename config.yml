@@ -36,6 +36,8 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+        - name: Profile
+          url: profile
         # - name: WiKi
         #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
         # - name: Discord
