@@ -56,15 +56,6 @@ $$ f_3(k)= \begin{cases} 3^{k/2}-1 &amp;amp; \textrm{if} &amp;amp; k \equiv 0 \p
 数学の本で，証明に適度に飛躍があって，その間を自分で埋めると推論の能力が向上する作りになっているものが筆者は好きである． それに倣って，上の証明も事細かに説明しないようにした． 興味を覚えた読者は，練習問題として，行間を埋めてみてほしい．</description>
     </item>
     
-    <item>
-      <title>Emoji Support</title>
-      <link>https://keita-ishizuka.github.io/blog/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://keita-ishizuka.github.io/blog/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
-    </item>
-    
     
     <item>
       <title>Profile</title>
