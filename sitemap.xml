@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://keita-ishizuka.github.io/blog/</loc>
-    <lastmod>2022-10-30T13:22:25+09:00</lastmod>
-  </url><url>
     <loc>https://keita-ishizuka.github.io/blog/posts/</loc>
     <lastmod>2022-10-30T13:22:25+09:00</lastmod>
   </url><url>
@@ -21,6 +18,9 @@
     <lastmod>2022-10-30T13:22:25+09:00</lastmod>
   </url><url>
     <loc>https://keita-ishizuka.github.io/blog/tags/%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0/</loc>
+    <lastmod>2022-10-30T13:22:25+09:00</lastmod>
+  </url><url>
+    <loc>https://keita-ishizuka.github.io/blog/</loc>
     <lastmod>2022-10-30T13:22:25+09:00</lastmod>
   </url><url>
     <loc>https://keita-ishizuka.github.io/blog/posts/traveling_salesman/</loc>
