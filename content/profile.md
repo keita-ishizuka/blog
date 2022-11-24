@@ -1,5 +1,5 @@
 ---
-title: 'Profile'
+title: '著者プロフィール'
 draft: true
 ---
 
